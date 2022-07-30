@@ -1,0 +1,9 @@
+@mixin dark{
+    background-color: #3e3e3e;
+    color : aliceblue;
+}
+
+body{
+    @include dark;
+    box-sizing: border-box;
+}

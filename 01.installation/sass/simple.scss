@@ -1,0 +1,13 @@
+/* This is simple sass file */
+$textcolor : red;
+$textsize : 30px;
+
+body{
+    color : $textsize;
+    font-size: $textcolor;
+
+    div{
+        width : 300px;
+        height : 100px
+    }
+}
