@@ -1,0 +1,9 @@
+/* another_main.scss file */
+
+// import partial file
+@import './partials/color'; // not necessary to write underscore for import file
+
+body{
+    background-color: $bg_color;
+    color : $text_color;
+}

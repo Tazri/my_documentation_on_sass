@@ -1,0 +1,8 @@
+/* main.scss file */ /* body.scss file */ /* color.scss file */
+body {
+  background-color: darkblue;
+}
+
+.container {
+  color: aliceblue;
+}
