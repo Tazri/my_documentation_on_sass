@@ -1,0 +1,14 @@
+$my_font : recursive, arial;
+$my_color : aliceblue;
+$my_font_size : 18px;
+$my_with : 680px;
+
+body {
+    font-family: $my_font;
+    font-size: $my_font_size;
+    color: $my_color;
+}
+
+.container{
+    width: $my_with;
+}

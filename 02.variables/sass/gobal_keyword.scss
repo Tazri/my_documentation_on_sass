@@ -1,0 +1,10 @@
+$my_color : aliceblue;
+
+h1{
+    $my_color: darkblue !global;
+    color : $my_color;
+}
+
+p {
+    color : $my_color;
+}

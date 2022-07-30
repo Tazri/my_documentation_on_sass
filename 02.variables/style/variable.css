@@ -1,0 +1,9 @@
+body {
+  font-family: recursive, arial;
+  font-size: 18px;
+  color: aliceblue;
+}
+
+.container {
+  width: 680px;
+}
