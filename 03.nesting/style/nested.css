@@ -1,0 +1,18 @@
+/* Nested Example in Sass */
+nav ul {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+nav li {
+  display: inline-block;
+}
+nav a {
+  display: inline-block;
+  padding: 10px 15px;
+  text-decoration: none;
+  /* select the parent by using & */
+}
+nav a:hover {
+  color: aliceblue;
+}

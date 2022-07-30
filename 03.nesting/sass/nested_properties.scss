@@ -1,0 +1,13 @@
+body {
+    // nested properties
+    font: {
+        family : Recursive, cursive, arial;
+        size : 20px;
+        weight : bold;
+    }
+
+    background: {
+        position: center;
+        size: cover;
+    }
+}
