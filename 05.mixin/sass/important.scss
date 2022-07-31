@@ -1,0 +1,13 @@
+/* important.scss file */
+
+@mixin important-text {
+    color : red;
+    font-size: 25px;
+    font-weight: bold;
+    border: 1px solid blue;
+}
+
+body {
+    @include important-text;
+    background-color: aliceblue;
+}

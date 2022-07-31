@@ -1,0 +1,6 @@
+/* paramter.scss file */
+.my_box {
+  -webkit-transform: rotate(20deg) translate(20px, 10px);
+  -ms-transform: rotate(20deg) translate(20px, 10px);
+  transform: rotate(20deg) translate(20px, 10px);
+}

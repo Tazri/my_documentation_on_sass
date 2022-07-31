@@ -1,0 +1,10 @@
+/* paramter.scss file */
+@mixin transform($property){
+    -webkit-transform: $property;
+    -ms-transform: $property;
+    transform: $property;
+}
+
+.my_box{
+    @include transform(rotate(20deg) translate(20px,10px));
+}

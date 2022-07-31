@@ -1,0 +1,13 @@
+/* default_value */
+
+@mixin important($color : aliceblue){
+    border : 4px solid $color;
+}
+
+.container{
+    @include important;
+}
+
+.p{
+    @include important(darkblue);
+}

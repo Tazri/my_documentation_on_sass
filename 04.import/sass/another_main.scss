@@ -3,7 +3,7 @@
 // import partial file
 @import './partials/color'; // not necessary to write underscore for import file
 
-body{
+body {
     background-color: $bg_color;
     color : $text_color;
 }
