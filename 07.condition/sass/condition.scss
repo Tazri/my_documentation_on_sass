@@ -1,0 +1,31 @@
+/* condition */
+$border : 2px solid purple;
+
+@mixin border($direction){
+    /* condition appling */
+    @if ($direction == up) {
+        border-top : $border; 
+    }@else if($direction == left){
+        border-left: $border;
+    }@else if($direction == right){
+        border-right : $border;
+    }@else{
+        border-bottom: $border;
+    }
+}
+
+.left_button{
+    @include border(left);
+}
+
+.right_button{
+    @include border(right);
+}
+
+.up_button{
+    @include border(up);
+}
+
+.down_button{
+    @include border(down)
+}

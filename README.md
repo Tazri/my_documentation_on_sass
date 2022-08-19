@@ -34,10 +34,12 @@ A browser dose not understand sass code. Therefore, need a sass pre-processor to
 There are two type of sass file. One is **.scss** and another is **.sass**. Here **.sass** file is use to write sass code indent way and other **.scss** use to write sass code with bracket and parentheses. 
 
 ## Table of contain 
-I divide the sass all concept into 7 part. Every part explain sass importance concept with example : 
+I divide the sass all concept into 10 part. Every part explain sass importance concept with example : 
 
 1. [Installation](./01.installation/readme.md)
 1. [Variables](./02.variables/readme.md)
 1. [Nesting](./03.nesting/readme.md)
 1. [@import](./04.import/readme.md)
 1. [@mixin](./05.mixin/readme.md)
+1. [@extend](./06.extend/readme.md)
+1. [Condition](./07.condition/readme.md)

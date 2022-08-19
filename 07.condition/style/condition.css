@@ -1,0 +1,20 @@
+/* condition */
+.left_button {
+  /* condition appling */
+  border-left: 2px solid purple;
+}
+
+.right_button {
+  /* condition appling */
+  border-right: 2px solid purple;
+}
+
+.up_button {
+  /* condition appling */
+  border-top: 2px solid purple;
+}
+
+.down_button {
+  /* condition appling */
+  border-bottom: 2px solid purple;
+}

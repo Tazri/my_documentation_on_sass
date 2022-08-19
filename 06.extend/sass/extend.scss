@@ -1,0 +1,11 @@
+/* extend.scss file */
+
+.botton_basic {
+    padding : 20px 10px;
+    border : 2px solid purple;
+}
+
+.botton_back {
+    @extend .botton_basic;
+    background-color: aliceblue;
+}
